@@ -18,6 +18,22 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     font-weight: 300;
 }
 
+.imagem{
+    padding: 5px;
+}
+
+.imagem > img{    
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgb(255, 54, 114);
+}
+
+.imagem > a > img{    
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgb(255, 54, 114);
+}
+
 .links{
     line-height: 1.38; 
     margin-top: 0pt; 
@@ -41,7 +57,11 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 }
 
 .referencia{
-    padding: 15px;    
+    padding: 0 15px 15px 15px;    
+}
+
+.referencia > div > .texto{
+    padding-top: 0 !important;
 }
 
 .divisor{

@@ -38,12 +38,11 @@
 @media (max-width: 768px){	
 	.home-content h1 {		
 		text-decoration-thickness: 2px;
-	}
-}
-
-@media (max-width: 768px){
-  .home-content h1 {
     font-size: 35px;		
+	}
+
+	.texto{
+		padding-top: 10px;
 	}
 }
 
