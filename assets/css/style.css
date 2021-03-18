@@ -8,6 +8,47 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
    Author's custom styles
    ========================================================================== */
 
+.texto{
+    line-height: 1.38; 
+    margin-top: 0pt; 
+    margin-bottom: 10pt; 
+    text-align: justify;
+    color: #000;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.links{
+    line-height: 1.38; 
+    margin-top: 0pt; 
+    margin-bottom: 10pt; 
+    text-align: justify;
+    color: #000;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.links > div > p{
+    margin-bottom: 10px;
+}
+
+.links > div > ul{    
+    padding-left: 10px;
+}
+
+.links > div > ul > li{    
+    margin-bottom: 15px;
+}
+
+.referencia{
+    padding: 30px;    
+}
+
+.divisor{
+    margin: 20px;
+    border: 1px solid #929292;
+}
+
 html,
 body {
     font-size: 15px;
@@ -1501,8 +1542,12 @@ xkeyframes
     background-color: rgba(0, 173, 62, 0.75);
 }
 
+.red-bar{    
+    border: 1px solid red;
+}
+
 /*For Footer Section*/
-.red-bar{
+.footer-red-bar{
     border: 1px solid red;
     margin-top: 0;
     margin-bottom: 2px;
